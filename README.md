@@ -1,20 +1,3 @@
-<<<<<<< HEAD
-# 🔢 Handwritten Digit Recognizer
-
-## Project Overview
-
-A CNN-based deep learning model that recognizes handwritten digits using the MNIST dataset.
-
-## Dataset Information
-
-MNIST Dataset
-
-- 60,000 training images
-- 10,000 testing images
-- Digits from 0 to 9
-
-## Technologies Used
-=======
 # 🔢 Handwritten Digit Recognizer Using CNN
 
 ## 📌 Project Overview
@@ -61,71 +44,239 @@ The MNIST dataset contains grayscale handwritten digit images.
 ---
 
 ## 🛠️ Technologies Used
->>>>>>> 784fd96ede4b9e545f42fd0a92bd483ee3f32162
 
 - Python
 - TensorFlow
 - Keras
 - NumPy
-- Streamlit
+- Matplotlib
 - Pillow
+- Streamlit
+- GitHub
+- VS Code
 
-## Deep Learning Model
+---
 
-Convolutional Neural Network (CNN)
+## 🧠 Deep Learning Model
 
-Layers:
+### Convolutional Neural Network (CNN)
 
-- Conv2D
-- MaxPooling2D
-- Flatten
-- Dense
+Architecture:
 
-## Accuracy Achieved
+```text
+Input Layer (28x28x1)
+        ↓
+Conv2D (32 Filters)
+        ↓
+MaxPooling2D
+        ↓
+Conv2D (64 Filters)
+        ↓
+MaxPooling2D
+        ↓
+Conv2D (128 Filters)
+        ↓
+Flatten
+        ↓
+Dense (128)
+        ↓
+Dense (64)
+        ↓
+Output Layer (10 Classes)
+```
 
-Approximately 98%–99%
+---
 
-## Screenshots
+## 🔄 Project Workflow
 
-### Home Page
+```text
+MNIST Dataset
+      ↓
+Image Preprocessing
+      ↓
+CNN Model Creation
+      ↓
+Model Training
+      ↓
+Model Evaluation
+      ↓
+Model Saving
+      ↓
+Streamlit Deployment
+```
 
-![Home](screenshots/homepage.png)
+---
 
-### Prediction
+## 📊 Model Performance
 
-![Prediction](screenshots/prediction.png)
+### Evaluation Metric
 
-## Installation
+Accuracy
+
+### Accuracy Achieved
+
+**98% – 99%**
+
+Replace this with your actual accuracy after training.
+
+Example:
+
+```text
+Accuracy: 98.75%
+```
+
+---
+
+## 📷 Screenshots
+
+### Homepage
+
+![Homepage](screenshots/homepage.png)
+
+### Uploaded Digit
+
+![Uploaded Digit](screenshots/uploaded_digit.png)
+
+### Prediction Result
+
+![Prediction Result](screenshots/prediction_result.png)
+
+### Training Output
+
+![Training Output](screenshots/training_output.png)
+
+### Accuracy Result
+
+![Accuracy Result](screenshots/accuracy_result.png)
+
+### CNN Architecture
+
+![CNN Architecture](screenshots/cnn_architecture.png)
+
+### MNIST Sample Images
+
+![MNIST Samples](screenshots/mnist_samples.png)
+
+---
+
+## 📁 Project Structure
+
+```text
+Handwritten-Digit-Recognizer/
+│
+├── models/
+│   └── digit_model.h5
+│
+├── screenshots/
+│   ├── homepage.png
+│   ├── uploaded_digit.png
+│   ├── prediction_result.png
+│   ├── training_output.png
+│   ├── accuracy_result.png
+│   ├── cnn_architecture.png
+│   └── mnist_samples.png
+│
+├── train_model.py
+├── predict_digit.py
+├── app.py
+├── requirements.txt
+├── README.md
+├── .gitignore
+├── Project_Report.pdf
+└── Presentation.pptx
+```
+
+---
+
+## ⚙️ Installation
+
+Clone Repository
+
+```bash
+git clone https://github.com/yourusername/Handwritten-Digit-Recognizer.git
+```
+
+Move to Project Folder
+
+```bash
+cd Handwritten-Digit-Recognizer
+```
+
+Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Run
+---
 
-Train:
+## 🚀 How to Run
+
+### Train Model
 
 ```bash
 python train_model.py
 ```
 
-Launch App:
+### Predict Using Image
+
+```bash
+python predict_digit.py
+```
+
+### Launch Streamlit App
 
 ```bash
 streamlit run app.py
 ```
 
-## Future Enhancements
+---
 
-- Digit drawing canvas
-- Real-time prediction
-- Mobile deployment
-- Cloud hosting
+## 🎯 Example Prediction
 
-## Author
+### Input
 
-B.Aaryani
+Handwritten Digit Image:
 
-## Project
+```text
+4
+```
 
-Codec Technologies Internship Project
+### Output
+
+```text
+Predicted Digit: 4
+```
+
+---
+
+## 🌟 Future Enhancements
+
+- Digit Drawing Canvas
+- Real-Time Recognition
+- Cloud Deployment
+- Mobile Application
+- Recognition of Alphabets
+- Advanced CNN Architectures
+
+---
+
+## 👨‍💻 Author
+
+**Name:** Your Name
+
+**Internship:** Codec Technologies
+
+**Domain:** Artificial Intelligence & Machine Learning
+
+**GitHub:** https://github.com/yourusername
+
+---
+
+## 📜 License
+
+This project is developed for educational and internship purposes.
+
+---
+
+⭐ If you found this project useful, consider starring the repository.
