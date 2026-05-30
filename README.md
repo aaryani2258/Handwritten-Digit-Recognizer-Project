@@ -139,7 +139,7 @@ Accuracy: 98.75%
 
 ### Prediction Result
 
-![Prediction Result](screenshots/prediction_result.png)
+![Prediction Result](screenshots/prediction.png)
 
 ### Training Output
 
@@ -147,11 +147,8 @@ Accuracy: 98.75%
 
 ### Accuracy Result
 
-![Accuracy Result](screenshots/accuracy_result.png)
+![Accuracy Result](screenshots/accuracy_output.png)
 
-### CNN Architecture
-
-![CNN Architecture](screenshots/cnn_architecture.png)
 
 ### MNIST Sample Images
 
@@ -183,7 +180,6 @@ Handwritten-Digit-Recognizer/
 ├── README.md
 ├── .gitignore
 ├── Project_Report.pdf
-└── Presentation.pptx
 ```
 
 ---
@@ -263,13 +259,13 @@ Predicted Digit: 4
 
 ## 👨‍💻 Author
 
-**Name:** Your Name
+**Name:** B. Aaryani
 
 **Internship:** Codec Technologies
 
 **Domain:** Artificial Intelligence & Machine Learning
 
-**GitHub:** https://github.com/yourusername
+**GitHub:** https://github.com/aaryani2258
 
 ---
 
