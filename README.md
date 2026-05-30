@@ -75,7 +75,7 @@ streamlit run app.py
 
 ## Author
 
-- BY B.Aaryani
+B.Aaryani
 
 ## Project
 
